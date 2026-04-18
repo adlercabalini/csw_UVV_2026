@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09 </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Formulário</h1>
+   
+        <form action="#">
+        
+            <table border="1" id="tabela-formulario">
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" name="nome" placeholder="digite seu nome" size="50px"></td>
+                </tr>
+                <tr><label for="email"></label>
+                    <td>Email pessoal:</td>
+                    <td><input type="email" name="email" id="campo_email" size="50px"></td>
+                </tr>
+                <tr>
+                    <td>Email (pattern):</td>
+                    <td><label for="email"></label>
+                        <input type="email" name="email-pattern" id="campo_emailppttrn"
+                            placeholder="digite seu email com @" size="50px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Senha:</td>
+                    <td><input type="password" name="password" id="campo_senha" size="50px"></td>
+                </tr>
+                <tr>
+                    <td>Idade:</td>
+                    <td><input type="number" name="idade" id="campo_idade" size="50px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Deixe um comentário:<br>
+                        <textarea name="comentario" rows="4" cols="70"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Matéria de interesse: <br>
+                        <input type="checkbox">Backend <br>
+                        <input type="checkbox">Frontend <br>
+                        <input type="checkbox">fullstack <br>
+                    </td>
+                    <td>tipo de viagem: <br>
+                        <input type="radio" name="opcao">Negocios <br>
+                        <input type="radio" name="opcao">Lazer <br>
+                        <input type="radio" name="opcao">Turismo <br>
+                        <input type="radio" name="opcao">Academico<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Esporte favorito <br>
+                        <select name="esporte" size="1" id="campo-esporte1">
+                            id="campo-esporte2">
+                            <option value="Futebol">Futebol</option>
+                            <option value="basquete">basquete</option>
+                            <option value="volei">volei</option>
+                            <option value="tenis">tenis</option>
+                            <option value="rugby">rugby</option>
+                        </select>
+                    </td>
+                    <td>investimento <br>
+                        <select name="investimentos" size="5" id="campo-investimento">
+                            <optgroup>baixo risco</optgroup>
+                            <option value="poupanca">poupança</option>
+                            <option value="CDB">CDB</option>
+                            <option value="tesouro direto">tesouto direto</option>
+                            <optgroup>medio risco</optgroup>
+                            <option value="fundos imobiliarios">fundos imobiliários</option>
+                            <option value="CDI">CDI</option>
+                            <option value="debentures">debêntures</option>
+                            <optgroup>alto risco</optgroup>
+                            <option value="criptomoedas">criptomoedas</option>
+                            <option value="acoes">ações</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>escolha uma cor
+                        <input type="color" id="cor-favorita">
+                    </td>
+                    <td>escolha um arquivo <br><input type="file" name="arquivo-favorito" id="campoo-arquivo"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">data do envio <br>
+                        <input type="date" name="data" id="data-envio">
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">enviar</button></td>
+                    <td><button type="reset">limpar</button></td>
+                </tr>
+
+
+
+
+
+            </table>
+        </form>
+
+
+
+
+</body>
+
+</html>
