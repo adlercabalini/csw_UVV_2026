@@ -1,0 +1,43 @@
+
+.tabuleiro {
+    width: 480px;
+    height: 480px;
+    border: 5px solid #333;
+}
+
+
+.casa {
+    width: 60px;
+    height: 60px;
+    float: left; 
+}
+
+
+.branca {
+    background-color: aliceblue;
+}
+
+.preto {
+    background-color: black;
+}
+
+
+.peca {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    
+   
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Cores das peças */
+.peca.branca {
+    background-color: white;
+}
+
+.peca.preta {
+    background-color: #333;
+    border: 1px solid white;
+}
